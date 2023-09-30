@@ -1,1 +1,41 @@
-
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <form action="test.py" method="post">
+            <input type="hidden" name="any thing" value="0114614">
+            <div>
+            <label>username</label>
+            <br>
+            <input type="text" required name="username" placeholder="enter username" >
+            </div>
+            <hr>
+            <div>
+            <label>password</label>
+            <br>
+            <input type="password" required name="password" placeholder="enter complex password" >
+            </div>
+            <hr>
+            <div>
+            <label>mobile</label>
+            <br>
+            <input type="number" name="mobile" placeholder="enter a valid number" >
+            </div>
+            <hr>
+            <div>
+            <label>email</label>
+            <br>
+            <input type="email" required name="email" placeholder="enter a valid email" >
+            </div>
+            <hr>
+            <div>
+            <label>subject</label>
+            <br>
+            <input type="text" name="subject" placeholder="enter any subject" >
+            </div>
+            <hr>
+            <input type="submit" value="send data">
+            <input type="reset" value=" empty form">
+        </form>
+    </body>
+</html>
