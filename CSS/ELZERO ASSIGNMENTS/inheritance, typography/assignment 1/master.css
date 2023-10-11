@@ -1,0 +1,11 @@
+div{
+    text-align: center;
+    border: 6px solid #009688;
+    padding: 40px;
+    margin: 30px;
+}
+div p{
+    border: inherit;
+    padding: inherit;
+    background-color: #eee;
+}
