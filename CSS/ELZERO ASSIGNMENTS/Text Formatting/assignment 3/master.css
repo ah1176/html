@@ -1,0 +1,17 @@
+div{
+    color: black;
+    background-color: #eee;
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+}
+
+.one{
+    word-break: break-word;
+}
+
+.three{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
