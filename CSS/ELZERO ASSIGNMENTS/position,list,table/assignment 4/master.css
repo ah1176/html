@@ -1,0 +1,39 @@
+table{
+    width: 700px;
+    margin: auto;
+    border-bottom: 3px solid #009688;
+}
+
+img{
+    width: 100px;
+    height: 90px;
+}
+
+table thead td{
+    background-color: #404040;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+table td{
+    padding: 20px;
+    background-color: #eee;
+    font-weight: bold;
+    text-align: center;
+}
+
+.view{
+    background-color: #03a9f4;
+    color: white;
+    border: none;
+    width: fit-content;
+}
+
+.delete{
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    width: fit-content;
+}
