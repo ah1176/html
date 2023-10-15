@@ -1,0 +1,22 @@
+.main{
+    width: 400px;
+    margin: auto;
+    background-color: #eee;
+}
+
+li{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.html{
+    list-style: none;
+    background-color: #eee;
+    margin: 10px;
+    padding: 10px;
+}
+
+.nested{
+    list-style-position: inside;
+}
