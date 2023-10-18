@@ -1,0 +1,70 @@
+.parent{
+    width: 550px;
+    background-color: white;
+    margin:20px auto;
+    position: relative;
+}
+
+.basic{
+    background-color: #eee;
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    right: 337px;
+    position: absolute;
+}
+
+button{
+    width: 184px;
+    height: 40px;
+    background-color: #03a9f4;
+    border: none;
+    border-radius: 14px;
+    color: white;
+    margin-top: 20px;
+    position: absolute;
+    left: 29px;
+}
+
+.paid{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    background-color: #eee;
+    width: 250px;
+    height: 300px;
+}
+
+p{
+    background-color: #dddddd;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    position: absolute;
+    top: 64px;
+    left: 20px;
+    border-radius: 100px;
+    line-height: 200px;
+}
+
+.basic::after{
+    content: "";
+    width: 2.5px;
+    height: 300px;
+    position: absolute;
+    background-color: #03a9f4;
+    right: -40px;
+}
+
+.paid::before{
+    content: "or";
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #03a9f4;
+    position: absolute;
+    right: 278px;
+    top: 140px;
+    color: white;
+    text-align: center;
+}
