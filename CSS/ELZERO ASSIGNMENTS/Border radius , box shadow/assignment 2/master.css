@@ -1,0 +1,16 @@
+body{
+    height: 100%;
+}
+div{
+    width: 100px;
+    height: 100px;
+    border-top-right-radius:52px 57px;
+    border-bottom-left-radius: 52px 57px;
+    border-top-left-radius: 31px 16px;
+    border-bottom-right-radius: 31px 16px;
+    background-color: #eee;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    box-shadow: 0 0 27px 0px #aaa inset;
+}
