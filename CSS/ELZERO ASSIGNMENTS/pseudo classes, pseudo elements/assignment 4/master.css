@@ -1,0 +1,26 @@
+p{
+    width: 400px;
+    height: 30px;
+    margin: auto;
+    background-color: #eee;
+    padding-top: 10px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 15px;
+    border-right: 5px solid #f44336;
+    counter-increment: increase;
+    position: relative;
+}
+
+p::before{
+    content: counter(increase);
+    display: inline-block;
+    color: white;
+    background-color: #f44336;
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding-top: 10px;
+}
