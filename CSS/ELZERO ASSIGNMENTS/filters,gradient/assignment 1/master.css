@@ -1,0 +1,25 @@
+div{
+    width: 600px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: #eee;
+    position: relative;
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+}
+
+div::before{
+    content: "";
+    background-image: linear-gradient(to right , #f44336 20% , #2196f3 20% , #2196f3 40% , #4caf50 40% , #4caf50 60% ,#e91e63 60% , #e91e63 80% , #673ab7 80%);
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 620px;
+    height: 120px;
+    z-index: -1;
+}
+
+div::first-letter{
+    color:#f44336 ;
+}
